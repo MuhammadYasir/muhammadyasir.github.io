@@ -72,7 +72,7 @@
      ----------------------------------*/
     function skill_html() {
         $('#html').LineProgressbar({
-            percentage: 95,
+            percentage: 80,
             radius: '3px',
             height: '10px',
             duration: 6000,
@@ -83,7 +83,7 @@
 
     function skill_css() {
         $('#css').LineProgressbar({
-            percentage: 90,
+            percentage: 80,
             radius: '3px',
             height: '10px',
             duration: 6000,
@@ -94,7 +94,7 @@
 
     function skill_javaScript() {
         $('#javascript').LineProgressbar({
-            percentage: 65,
+            percentage: 95,
             radius: '3px',
             height: '10px',
             duration: 6000,
@@ -105,7 +105,7 @@
 
     function skill_jquery() {
         $('#jquery').LineProgressbar({
-            percentage: 75,
+            percentage: 95,
             radius: '3px',
             height: '10px',
             duration: 6000,
@@ -114,8 +114,8 @@
     }
     skill_jquery();
 
-    function skill_wordpress() {
-        $('#wordpress').LineProgressbar({
+    function skill_angular() {
+        $('#angular').LineProgressbar({
             percentage: 95,
             radius: '3px',
             height: '10px',
@@ -123,7 +123,7 @@
             backgroundColor: '#ddd'
         });
     }
-    skill_wordpress();
+    skill_angular();
 
     function skill_web_design() {
         $('#web-design').LineProgressbar({
